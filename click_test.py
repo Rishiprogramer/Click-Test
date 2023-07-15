@@ -15,6 +15,7 @@ def timed():
     elif time_out == 0:
         app.destroy()
         result = Tk()
+        result.resizable(width=False,height=False)
         result.title("Click test")
         result.geometry('700x400')
         result.config(bg='Black')
@@ -34,6 +35,7 @@ def click():
 if __name__ == '__main__':
     app = Tk()
     app.title("Click test")
+    app.resizable(width=False,height=False)
     app.geometry('600x400')
     app.configure(bg='black')  # Background color of the main window
 
