@@ -21,7 +21,7 @@ def timed():
         result.config(bg='Black')
         global count
         speed = count / 20
-        prit = Label(result, text=f'Your speed is {speed:.2f} clicks per second', font=('arial', 30,), justify='center', fg='white', bg='blue')  # Colorful result label
+        prit = Label(result, text=f'Your speed is {speed} clicks per second', font=('arial', 30,), justify='center', fg='white', bg='blue')  # Colorful result label
         prit.pack()
         result.mainloop()
 
